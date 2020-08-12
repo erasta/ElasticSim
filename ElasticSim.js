@@ -10,7 +10,6 @@ function initGraphics() {
     renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.gammaInput = true;
     renderer.gammaOutput = true;
-    renderer.setFaceCulling(0);
     renderer.setSize(container.offsetWidth, container.offsetHeight);
     container.appendChild(renderer.domElement);
 
